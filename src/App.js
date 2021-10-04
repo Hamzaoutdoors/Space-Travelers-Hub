@@ -13,7 +13,7 @@ import './App.css';
 const App = () => (
   <Router>
     <Header />
-    <main>
+    <main bg="light">
       <Switch>
         <Route path="/" exact>
           <Rockets />
