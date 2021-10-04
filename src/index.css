@@ -8,12 +8,14 @@ body {
 
 .nav-wrapper {
   border-bottom: solid 1px #b9b9b9;
-  padding: 0.5rem 0 2rem 0;
+  padding: 1rem 0 1rem 0;
   width: 90%;
 }
 
 .navBar-list {
   display: flex;
+  justify-content: flex-end;
+  margin-bottom: 0.5rem;
 }
 
 .nav-list {
@@ -22,12 +24,12 @@ body {
 
 .nav-list:last-child {
   border-left: solid 2px black;
-  padding-left: 20px;
+  margin-left: 20px;
 }
 
 .nav-list .nav-page {
   text-decoration: none;
   font-weight: 500;
   padding-bottom: 0;
-  margin-right: 20px;
+  margin-left: 20px;
 }
