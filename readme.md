@@ -22,8 +22,7 @@
 
 </br>
  <div align="center">
-  <em align="center" style>“The journey of a thousand miles begins with a single step.”
- "</em><strong> - Lao Tzu</strong>
+  <em align="center" style>“Everyday life is like programming, I guess. If you love something you can put beauty into it.”</em><strong> - Lao Tzu</strong>
   </div>
   
 # Bookstore with React & Redux
@@ -31,10 +30,10 @@
 - The Space Travelers is a website web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.
 By building this application, I learned how to use React, Redux and working in Project as group using Kanban dashboard
   - For this project we used the following APIs : 
-  Rockets: ``https://api.spacexdata.com/v3/rockets``
-  Missions: ``https://api.spacexdata.com/v3/missions``
+    - Rockets: ``https://api.spacexdata.com/v3/rockets``
+    - Missions: ``https://api.spacexdata.com/v3/missions``
   
-</br>
+<!-- </br>
 <p align="center">
    <kbd>
     <img alt="logo" src="./src/media/Bookstore.gif"width="250" height="250">
@@ -49,21 +48,23 @@ By building this application, I learned how to use React, Redux and working in P
   </kbd>
   </div>
  </br> 
-
+ -->
 
 ## Built With
 
 - JSX, JavaScript with ES6
 - React.js with redux
-- Linters, Node.js, Git, Flexbox, Bootstrap, Webpack
+- Linters, Node.js, Git, Flexbox, React-Bootstrap
 
 ## Live demo
-Live demos for this project can be found on the following Cloud Platforms :
+
+### In construction
+<!-- Live demos for this project can be found on the following Cloud Platforms :
 
 
 <div align="center">
     <a href="https://bookstore-hamzaoutdoors.netlify.app/" width = "20%"><img alt="Netlify deployement" src="https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7"></a>
- </div>
+ </div> -->
 
 # Getting Started with Create React App
 
@@ -141,8 +142,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 👤 **Lucas Ferrari**
 
 - GitHub: [Lucas FS](https://github.com/notlfish)
-- LinkedIn : [Hamza Ellaouzi](https://www.linkedin.com/in/hamza-ellaouzi-137a45b8/)
-- Twitter: [Hamza Ellaouzi](https://twitter.com/EllaouziHamza)
+<!-- - LinkedIn : [Hamza Ellaouzi](https://www.linkedin.com/in/hamza-ellaouzi-137a45b8/)
+- Twitter: [Hamza Ellaouzi](https://twitter.com/EllaouziHamza) -->
 
 👤 **Ellaouzi Hamza**
 
