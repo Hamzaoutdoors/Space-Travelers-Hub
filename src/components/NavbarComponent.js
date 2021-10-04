@@ -1,4 +1,7 @@
 import React from 'react';
+import {
+  Nav,
+} from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
@@ -20,17 +23,24 @@ const Navbar = () => {
     },
   ];
   return (
-    <nav className="navBar">
-      <ul>
+    <Nav>
+      <ul className="navBar-list">
         {links.map((link) => (
-          <li key={link.id}>
-            <NavLink to={link.path} activeClassName="active-link" exact>
+          <li key={link.id} className="nav-list">
+            <NavLink
+              to={link.path}
+              activeStyle={{
+                textDecoration: 'underline',
+              }}
+              className="nav-page text-primary"
+              exact
+            >
               {link.text}
             </NavLink>
           </li>
         ))}
       </ul>
-    </nav>
+    </Nav>
   );
 };
 export default Navbar;
