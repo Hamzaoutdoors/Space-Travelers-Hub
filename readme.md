@@ -24,15 +24,15 @@
  <div align="center">
   <em align="center" style>“Everyday life is like programming, I guess. If you love something you can put beauty into it.”</em><strong> - Lao Tzu</strong>
   </div>
-  
-# Bookstore with React & Redux
+
+# Space Traveler's Hub
 
 - The Space Travelers is a website web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.
 By building this application, I learned how to use React, Redux and working in Project as group using Kanban dashboard
-  - For this project we used the following APIs : 
+  - For this project we used the following APIs :
     - Rockets: ``https://api.spacexdata.com/v3/rockets``
     - Missions: ``https://api.spacexdata.com/v3/missions``
-  
+
 <!-- </br>
 <p align="center">
    <kbd>
@@ -47,7 +47,7 @@ By building this application, I learned how to use React, Redux and working in P
   <img alt="math" src="./src\media\screenShot.PNG">
   </kbd>
   </div>
- </br> 
+ </br>
  -->
 
 ## Built With
@@ -107,43 +107,15 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 # Authors
 
-👤 **Lucas Ferrari**
+👤 **Lucas Ferrari Soto**
 
-- GitHub: [Lucas FS](https://github.com/notlfish)
-<!-- - LinkedIn : [Hamza Ellaouzi](https://www.linkedin.com/in/hamza-ellaouzi-137a45b8/)
-- Twitter: [Hamza Ellaouzi](https://twitter.com/EllaouziHamza) -->
+- GitHub: [@notlfish](https://github.com/notlfish)
+- Twitter: [@LucasFerrariSo1](https://twitter.com/LucasFerrariSo1)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/lucas-mauricio-ferrari-soto-472a3515a/)
+
 
 👤 **Ellaouzi Hamza**
 
