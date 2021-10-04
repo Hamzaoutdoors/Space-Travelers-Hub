@@ -1,3 +1,70 @@
+
+<p align="center">
+  <a href="https://www.microverse.org/">
+    <img alt="Microverse" src="https://img.shields.io/badge/-Microverse-blueviolet?style=flat-square">
+  </a>
+  <a href="https://github.com/Hamzaoutdoors/to-do-list/blob/development/LICENSE">
+    <img alt="MIT Licensed" src="https://img.shields.io/github/license/Hamzaoutdoors/to-do-list?style=flat-square">
+  </a>
+  <a href="https://github.com/Hamzaoutdoors/Space-Travelers-Hub">
+    <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/Hamzaoutdoors/Space-Travelers-Hub/dev?color=blue&style=flat-square">
+  </a>
+  <a href="https://github.com/Hamzaoutdoors/Space-Travelers-Hub">
+    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Hamzaoutdoors/Space-Travelers-Hub?color=green&label=%E2%98%85%20stars%20&style=flat-square">
+  </a>
+  <a href="https://github.com/Hamzaoutdoors">
+    <img alt="GitHub followers" src="https://img.shields.io/github/followers/Hamzaoutdoors?color=yellow&logo=github&style=flat-square">
+  </a>
+</p>
+
+<div align="center">
+ <img alt="react" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&loColor=%2361DAFB"> <img alt="redux" src="https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white"> <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/> <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"/> <img src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white"/> <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white"/> </div>
+
+</br>
+ <div align="center">
+  <em align="center" style>“The journey of a thousand miles begins with a single step.”
+ "</em><strong> - Lao Tzu</strong>
+  </div>
+  
+# Bookstore with React & Redux
+
+- The Space Travelers is a website web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.
+By building this application, I learned how to use React, Redux and working in Project as group using Kanban dashboard
+  - For this project we used the following APIs : 
+  Rockets: ``https://api.spacexdata.com/v3/rockets``
+  Missions: ``https://api.spacexdata.com/v3/missions``
+  
+</br>
+<p align="center">
+   <kbd>
+    <img alt="logo" src="./src/media/Bookstore.gif"width="250" height="250">
+   </kbd>
+</p>
+
+</br>
+
+ <div align="center">
+<kbd>
+  <img alt="math" src="./src\media\screenShot.PNG">
+  </kbd>
+  </div>
+ </br> 
+
+
+## Built With
+
+- JSX, JavaScript with ES6
+- React.js with redux
+- Linters, Node.js, Git, Flexbox, Bootstrap, Webpack
+
+## Live demo
+Live demos for this project can be found on the following Cloud Platforms :
+
+
+<div align="center">
+    <a href="https://bookstore-hamzaoutdoors.netlify.app/" width = "20%"><img alt="Netlify deployement" src="https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7"></a>
+ </div>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +135,37 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Authors
+
+👤 **Lucas Ferrari**
+
+- GitHub: [Lucas FS](https://github.com/notlfish)
+- LinkedIn : [Hamza Ellaouzi](https://www.linkedin.com/in/hamza-ellaouzi-137a45b8/)
+- Twitter: [Hamza Ellaouzi](https://twitter.com/EllaouziHamza)
+
+👤 **Ellaouzi Hamza**
+
+- GitHub: [hamzaoutdoors](https://github.com/Hamzaoutdoors)
+- LinkedIn : [Hamza Ellaouzi](https://www.linkedin.com/in/hamza-ellaouzi-137a45b8/)
+- Twitter: [Hamza Ellaouzi](https://twitter.com/EllaouziHamza)
+
+# 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Hamzaoutdoors/Space-Travelers-Hub/issues).
+
+# Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
