@@ -27,5 +27,5 @@ export default Rocket;
 Rocket.propTypes = {
   name: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
-  flickrImage: PropTypes.func.isRequired,
+  flickrImage: PropTypes.string.isRequired,
 };
