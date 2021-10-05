@@ -6,9 +6,9 @@ import {
   Route,
 } from 'react-router-dom';
 import Header from './components/navbar/Header';
-import Profile from './components/profile/Profile';
+import Profile from './pages/Profile';
 import Rockets from './pages/Rockets';
-import Missions from './components/missions/Missions';
+import Missions from './pages/Missions';
 import './App.css';
 
 const App = () => (
