@@ -9,7 +9,6 @@ const logoContainer = {
     transition: {
       staggerChildren: 0.07,
       delayChildren: 0.1,
-      yoyo: Infinity,
     },
   },
 };
