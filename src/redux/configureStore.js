@@ -9,10 +9,8 @@ const reducer = combineReducers({
   rockets: rocketsReducer,
   missions: missionsReducer,
 });
-
 const store = createStore(
   reducer,
   composeWithDevTools(applyMiddleware(logger, thunk)),
 );
-
 export default store;
