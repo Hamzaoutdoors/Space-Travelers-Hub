@@ -1,3 +1,9 @@
+.App-container {
+  margin: 0 auto;
+  padding-top: 50px;
+  min-height: 100vh;
+}
+
 .App-logo {
   height: 50px;
   width: 50px;
