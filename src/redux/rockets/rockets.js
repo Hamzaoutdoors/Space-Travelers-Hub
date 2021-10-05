@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import axios from 'axios';
 
 const GET_ROCKETS = 'spaceX/rockets/GET_ROCKETS';
@@ -15,6 +16,7 @@ export const getRockets = () => async (dispatch) => {
       flickrImage: rocket.flickr_images[0],
 
     }));
+    console.log(rockets);
     dispatch({
       type: GET_ROCKETS,
       rockets,
@@ -25,7 +27,7 @@ export const getRockets = () => async (dispatch) => {
 const rocketsReducer = (state = initialRockets, action) => {
   switch (action.type) {
     case GET_ROCKETS:
-      return [...action.rockets];
+      return [...state, ...action.rockets];
 
     default:
       return state;
