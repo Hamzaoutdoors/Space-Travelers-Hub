@@ -12,20 +12,20 @@ export const fetchMissionsAction = () => (dispatch) => {
   return fetchMissions().then(
     (missions) => {
       dispatch({ type: API_SUCCESS });
-      dispatch({ type: ADD_MISSIONS, missions })
+      dispatch({ type: ADD_MISSIONS, missions });
     },
     (error) => {
       dispatch({ type: API_FAILURE, error });
-    }
+    },
   );
-}
+};
 
 const missionsReducer = (state = initialMissions, action) => {
   switch (action.type) {
-  case ADD_MISSIONS:
-    return [...state, ...action.missions];
-  default:
-    return state;
+    case ADD_MISSIONS:
+      return [...state, ...action.missions];
+    default:
+      return state;
   }
 };
 
