@@ -1,32 +1,29 @@
-import axios from 'axios';
+import fetchRockets from '../../utils/rockets-api';
 
-const GET_ROCKETS = 'spaceX/rockets/GET_ROCKETS';
+const FETCH_ROCKETS = 'spaceX/rockets/FETCH_ROCKETS';
+const ADD_ROCKETS = 'spaceX/rockets/ADD_ROCKETS';
+const API_SUCCESS = 'spaceX/rockets/API_SUCCESS';
+const API_FAILURE = 'spaceX/rockets/API_FAILURE';
 
 const initialRockets = [];
 
-export const getRockets = () => async (dispatch) => {
-  const res = await axios.get('https://api.spacexdata.com/v3/rockets');
-  const data = await res.data;
-  if (data) {
-    const rockets = data.map((rocket) => ({
-      id: rocket.rocket_id,
-      name: rocket.rocket_name,
-      description: rocket.description,
-      flickrImage: rocket.flickr_images[0],
-
-    }));
-    dispatch({
-      type: GET_ROCKETS,
-      rockets,
-    });
-  }
+export const fetchRocketsAction = () => (dispatch) => {
+  dispatch({ type: FETCH_ROCKETS });
+  return fetchRockets().then(
+    (rockets) => {
+      dispatch({ type: API_SUCCESS });
+      dispatch({ type: ADD_ROCKETS, rockets });
+    },
+    (error) => {
+      dispatch({ type: API_FAILURE, error });
+    },
+  );
 };
 
 const rocketsReducer = (state = initialRockets, action) => {
   switch (action.type) {
-    case GET_ROCKETS:
+    case ADD_ROCKETS:
       return [...state, ...action.rockets];
-
     default:
       return state;
   }

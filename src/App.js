@@ -9,14 +9,14 @@ import Header from './components/navbar/Header';
 import Profile from './pages/Profile';
 import Rockets from './pages/Rockets';
 import Missions from './pages/Missions';
-import { getRockets } from './redux/rockets/rockets';
+import { fetchRocketsAction } from './redux/rockets/rockets';
 import { fetchMissionsAction } from './redux/missions/missions';
 import './App.css';
 
 const App = () => {
   const dispatch = useDispatch();
   useEffect(() => {
-    dispatch(getRockets());
+    dispatch(fetchRocketsAction());
     dispatch(fetchMissionsAction());
   }, []);
 
