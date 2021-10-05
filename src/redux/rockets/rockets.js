@@ -1,4 +1,3 @@
-/* eslint-disable no-console */
 import axios from 'axios';
 
 const GET_ROCKETS = 'spaceX/rockets/GET_ROCKETS';
@@ -16,7 +15,6 @@ export const getRockets = () => async (dispatch) => {
       flickrImage: rocket.flickr_images[0],
 
     }));
-    console.log(rockets);
     dispatch({
       type: GET_ROCKETS,
       rockets,
