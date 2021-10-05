@@ -3,7 +3,8 @@ import {
   Navbar, Container,
 } from 'react-bootstrap';
 import NavbarComponent from './NavbarComponent';
-import logo from '../media/planet.png';
+import logo from '../../media/planet.png';
+import Logo from './Logo';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Header = () => (
@@ -11,9 +12,7 @@ const Header = () => (
     <Container className="nav-wrapper">
       <Navbar.Brand href="#home" className="App-header d-flex align-items-center">
         <img src={logo} className="App-logo" alt="logo" />
-        <h3 className="header-title">
-          Space Travelers&apos; Hub
-        </h3>
+        <Logo string="Space  Traveler's    Hub" className="header-title" />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">

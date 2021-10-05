@@ -1,3 +1,9 @@
+.App-container {
+  margin: 0 auto;
+  padding-top: 50px;
+  min-height: 100vh;
+}
+
 .App-logo {
   height: 50px;
   width: 50px;
@@ -16,7 +22,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 15s linear;
   }
 }
 
