@@ -5,13 +5,10 @@ import { composeWithDevTools } from 'redux-devtools-extension';
 import rocketsReducer from './rockets/rockets';
 
 const reducer = combineReducers({
-  rocketsReducer,
-  // reducers for missions could be added here
+  rockets: rocketsReducer,
 });
-
 const store = createStore(
   reducer,
   composeWithDevTools(applyMiddleware(logger, thunk)),
 );
-
 export default store;
