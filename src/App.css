@@ -16,10 +16,6 @@
   color: white;
 }
 
-.header-title {
-  color: black;
-}
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 15s linear;
