@@ -1,7 +1,10 @@
+import Container from 'react-bootstrap/Container';
+import MissionsTable from './MissionsTable';
+
 const Missions = () => (
-  <div className="missions">
-    <h1>Missions Under Construction</h1>
-  </div>
+  <Container className="missions">
+    <MissionsTable />
+  </Container>
 );
 
 export default Missions;
