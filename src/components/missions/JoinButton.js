@@ -2,6 +2,7 @@ import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
 import { Button } from 'react-bootstrap';
 import { joinMission, leaveMission } from '../../redux/missions/missions';
+import style from './missions.module.scss';
 
 const JoinButton = ({ status, id }) => {
   const dispatch = useDispatch();
@@ -20,7 +21,7 @@ const JoinButton = ({ status, id }) => {
 
   return (
     <Button
-      className="text-nowrap mx-3"
+      className={`text-nowrap mx-3 ${style.buttonStyle}`}
       variant={fields[status].variant}
       onClick={fields[status].click}
     >
