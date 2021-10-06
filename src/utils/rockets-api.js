@@ -16,6 +16,7 @@ const fetchRockets = async () => {
     name: rocket_name,
     description,
     flickrImage: flickr_images[0],
+    reserved: false,
   }));
   /* eslint-enable camelcase */
 };
