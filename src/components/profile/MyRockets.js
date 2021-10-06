@@ -5,9 +5,9 @@ const MyRockets = () => {
   const rockets = useSelector((state) => state.rockets, shallowEqual);
 
   return (
-    <div className="my-missions">
+    <div className="my-rockets">
       <h2 className="mb-4">My Rockets</h2>
-      <Table bordered hover size="sm" responsive>
+      <Table hover bordered size="sm" responsive className="my-items">
         <tbody>
           {
             rockets.filter(({ reserved }) => reserved).map(({ name, id }) => (

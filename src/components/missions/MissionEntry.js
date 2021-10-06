@@ -1,5 +1,4 @@
 import PropTypes from 'prop-types';
-import { Badge } from 'react-bootstrap';
 import { motion } from 'framer-motion';
 import JoinButton from './JoinButton';
 
@@ -26,27 +25,23 @@ const variants = {
 const StatusBadge = ({ status }) => (
   <>
     {status === 'Not a member' ? (
-      <Badge
-        as={motion.Badge}
+      <motion.p
         variants={variants}
         initial="finish"
         animate="end"
-        className={`mx-2 ${status === 'Not a member' && 'text-uppercase'}`}
-        bg={status === 'Not a member' ? 'secondary' : 'primary'}
+        className="badge mx-2 text-uppercase bg-secondary my-0"
       >
         {status}
-      </Badge>
+      </motion.p>
     ) : (
-      <Badge
-        as={motion.Badge}
+      <motion.p
         variants={variants}
         initial="start"
         animate="finish"
-        className={`mx-2 ${status === 'Not a member' && 'text-uppercase'}`}
-        bg={status === 'Not a member' ? 'secondary' : 'primary'}
+        className="badge mx-2 bg-primary my-0"
       >
         {status}
-      </Badge>
+      </motion.p>
     )}
   </>
 );

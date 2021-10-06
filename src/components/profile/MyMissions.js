@@ -8,7 +8,7 @@ const MyMissions = () => {
   return (
     <div className="my-missions">
       <h2 className="mb-4">My Missions</h2>
-      <Table bordered hover size="sm" responsive>
+      <Table bordered hover size="sm" responsive className="my-items">
         <tbody>
           {myMissions.map(({ id, name }) => (
             <tr key={id}>
