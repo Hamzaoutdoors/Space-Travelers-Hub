@@ -7,6 +7,11 @@
   padding: 1rem 2rem;
   gap: 20px;
   border-radius: 8px;
+  overflow: hidden;
+}
+
+.cardStyle:hover {
+  box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253);
 }
 
 .rocketImage {
@@ -14,6 +19,12 @@
   border-radius: 5px;
   box-shadow: 0 0 10px -1px rgba(0, 0, 0, 0.75);
   margin-right: 1.5rem;
+  transform: scale(1);
+  transition: transform 0.5s ease;
+}
+
+.rocketImage:hover {
+  transform: scale(1.1);
 }
 
 .rocketTitle {
@@ -25,10 +36,12 @@
   .cardStyle {
     flex-direction: column;
     text-align: center;
+    padding: 0 0 1rem 0;
   }
 
   .rocketImage {
     max-width: 100%;
     margin-right: 0;
+    border-radius: 0;
   }
 }
