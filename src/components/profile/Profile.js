@@ -6,7 +6,7 @@ const Profile = () => (
   <Container>
     <Row>
       <Col xs={12} md={5}><MyRockets /></Col>
-      <Col xs={12} md={{span: 5, offset: 2}}><MyMissions /></Col>
+      <Col xs={12} md={{ span: 5, offset: 2 }}><MyMissions /></Col>
     </Row>
   </Container>
 );
