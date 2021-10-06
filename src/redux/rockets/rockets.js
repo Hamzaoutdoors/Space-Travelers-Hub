@@ -24,7 +24,8 @@ export const fetchRocketsAction = () => (dispatch) => {
 export const bookRocket = (currentState, id) => (dispatch) => {
   const newState = currentState.map((rocket) => {
     if (rocket.id !== id) return rocket;
-    return { ...rocket, reserved: true };
+    const reservedOrNot = !rocket.reserved;
+    return { ...rocket, reserved: reservedOrNot };
   });
   dispatch({
     type: RESERVE_ROCKET,
