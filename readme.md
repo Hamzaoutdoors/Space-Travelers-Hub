@@ -49,13 +49,13 @@ By building this application, I learned how to use React, Redux and working in P
  </br>
  -->
 
+## [Live demo](https://space-traveler-hub-hl.netlify.app/)
+
 ## Built With
 
 - JSX, JavaScript with ES6
 - React.js with redux
 - Linters, Node.js, Git, Flexbox, React-Bootstrap
-
-## Live demo
 
 ### In construction
 <!-- Live demos for this project can be found on the following Cloud Platforms :
