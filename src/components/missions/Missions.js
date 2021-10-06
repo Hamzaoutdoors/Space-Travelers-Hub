@@ -1,6 +1,6 @@
 import { shallowEqual, useSelector } from 'react-redux';
-import MissionsTable from './MissionsTable'
-import Container from 'react-bootstrap/Container'
+import Container from 'react-bootstrap/Container';
+import MissionsTable from './MissionsTable';
 
 const Missions = () => {
   const missions = useSelector((state) => state.missions, shallowEqual);
