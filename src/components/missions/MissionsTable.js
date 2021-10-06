@@ -12,6 +12,7 @@ const MissionsTable = () => {
           <th>Mission</th>
           <th>Description</th>
           <th>Status</th>
+          <td />
         </tr>
       </thead>
       <tbody>

@@ -34,3 +34,9 @@ body {
   padding-bottom: 0;
   margin-left: 20px;
 }
+
+/* My Profile */
+
+.my-items {
+  border: 2px solid #808080;
+}

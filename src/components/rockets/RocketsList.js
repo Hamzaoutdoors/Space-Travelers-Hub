@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import { useSelector } from 'react-redux';
+import { shallowEqual, useSelector } from 'react-redux';
 import { motion } from 'framer-motion';
 import Rocket from './Rocket';
 
@@ -18,7 +18,7 @@ const container = {
 };
 
 const Rockets = () => {
-  const rockets = useSelector((state) => state.rockets);
+  const rockets = useSelector((state) => state.rockets, shallowEqual);
 
   const rocketsList = rockets.map((rocket) => {
     const {
