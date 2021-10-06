@@ -8,17 +8,21 @@ const Rockets = () => {
 
   const rocketsList = rockets.map((rocket) => {
     const {
-      id, name, description, flickrImage,
+      id, name, description, flickrImage, reserved,
     } = rocket;
+
     return (
       <Rocket
         name={name}
         description={description}
         flickrImage={flickrImage}
         key={id}
+        id={id}
+        reserved={reserved}
       />
     );
   });
+
   return (
     <>
       <Container>

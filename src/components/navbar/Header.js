@@ -12,7 +12,7 @@ const Header = () => (
     <Container className="nav-wrapper">
       <Navbar.Brand href="#home" className="App-header d-flex align-items-center">
         <img src={logo} className="App-logo" alt="logo" />
-        <Logo string="Space  Traveler's    Hub" className="header-title" />
+        <Logo string="Space Traveler's Hub" />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
