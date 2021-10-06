@@ -5,6 +5,7 @@ const ADD_ROCKETS = 'spaceX/rockets/ADD_ROCKETS';
 const API_SUCCESS = 'spaceX/rockets/API_SUCCESS';
 const API_FAILURE = 'spaceX/rockets/API_FAILURE';
 const RESERVE_ROCKET = 'spaceX/rockets/RESERVE_ROCKET';
+const CANCEL_ROCKET = 'spaceX/rockets/CANCEL_ROCKET';
 
 const initialRockets = [];
 
@@ -21,24 +22,30 @@ export const fetchRocketsAction = () => (dispatch) => {
   );
 };
 
-export const bookRocket = (currentState, id) => (dispatch) => {
-  const newState = currentState.map((rocket) => {
-    if (rocket.id !== id) return rocket;
-    const reservedOrNot = !rocket.reserved;
-    return { ...rocket, reserved: reservedOrNot };
-  });
-  dispatch({
-    type: RESERVE_ROCKET,
-    newState,
-  });
-};
+export const bookRocket = (id) => ({
+  type: RESERVE_ROCKET,
+  id,
+});
+
+export const cancelRocket = (id) => ({
+  type: CANCEL_ROCKET,
+  id,
+});
 
 const rocketsReducer = (state = initialRockets, action) => {
   switch (action.type) {
     case ADD_ROCKETS:
       return [...state, ...action.rockets];
     case RESERVE_ROCKET:
-      return action.newState;
+      return state.map((rocket) => {
+        if (rocket.id !== action.id) return rocket;
+        return { ...rocket, reserved: true };
+      });
+    case CANCEL_ROCKET:
+      return state.map((rocket) => {
+        if (rocket.id !== action.id) return rocket;
+        return { ...rocket, reserved: false };
+      });
     default:
       return state;
   }
