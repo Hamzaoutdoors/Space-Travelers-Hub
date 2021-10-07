@@ -32,6 +32,11 @@ By building this application, I learned how to use React, Redux and working in P
     - Rockets: ``https://api.spacexdata.com/v3/rockets``
     - Missions: ``https://api.spacexdata.com/v3/missions``
 
+## Video presentation
+
+[![Video](https://user-images.githubusercontent.com/80895497/136445799-58ca5006-d129-4e82-b3d9-66796f42dd79.PNG)](https://drive.google.com/file/d/1wm_n4vBSnlGcx9krMYD-JzENQjFiaGp-/view?usp=sharing)
+
+
 <!-- </br>
 <p align="center">
    <kbd>
