@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+/* NavBar */
+
+.nav-wrapper {
+  border-bottom: solid 1px #b9b9b9;
+  padding: 1rem 0 1rem 0;
+  width: 90%;
+}
+
+.navBar-list {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 0.5rem;
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.nav-list:last-child {
+  border-left: solid 2px black;
+  margin-left: 20px;
+}
+
+.nav-list .nav-page {
+  text-decoration: none;
+  font-weight: 500;
+  padding-bottom: 0;
+  margin-left: 20px;
+}
+
+/* My Profile */
+
+.my-items {
+  border: 2px solid #808080;
+}

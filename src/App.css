@@ -1,0 +1,33 @@
+.App-container {
+  margin: 0 auto;
+  padding-top: 50px;
+  min-height: 100vh;
+}
+
+.App-logo {
+  height: 50px;
+  width: 50px;
+  pointer-events: none;
+  margin-right: 20px;
+}
+
+.App-header {
+  display: flex;
+  color: white;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 15s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

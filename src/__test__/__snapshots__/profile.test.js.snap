@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rockets list renders properly 1`] = `
+<div
+  className="my-rockets"
+>
+  <h2
+    className="mb-4"
+  >
+    My Rockets
+  </h2>
+  <div
+    className="table-responsive"
+  >
+    <table
+      className="my-items table table-sm table-bordered table-hover"
+    >
+      <tbody />
+    </table>
+  </div>
+</div>
+`;
