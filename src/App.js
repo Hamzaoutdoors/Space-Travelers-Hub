@@ -10,14 +10,13 @@ import Profile from './pages/Profile';
 import Rockets from './pages/Rockets';
 import Missions from './pages/Missions';
 import { fetchRocketsAction } from './redux/rockets/rockets';
-import { fetchMissionsAction } from './redux/missions/missions';
+
 import './App.css';
 
 const App = () => {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(fetchRocketsAction());
-    dispatch(fetchMissionsAction());
   }, []);
 
   return (
