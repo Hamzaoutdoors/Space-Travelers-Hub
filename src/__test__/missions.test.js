@@ -1,8 +1,10 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 import { Provider } from 'react-redux';
-import { render, fireEvent, screen, cleanup } from '@testing-library/react';
-import { within } from '@testing-library/dom'
+import {
+  render, fireEvent, screen, cleanup,
+} from '@testing-library/react';
+import { within } from '@testing-library/dom';
 import MissionsTable from '../components/missions/MissionsTable';
 import store from '../redux/configureStore';
 import { fetchMissionsAction } from '../redux/missions/missions';
@@ -20,7 +22,7 @@ describe('Missions tests', () => {
 
   describe('Interaction tests', () => {
     beforeEach(() => {
-      render(<Provider store={store}><MissionsTable /></Provider>)
+      render(<Provider store={store}><MissionsTable /></Provider>);
     });
     afterEach(cleanup);
 
