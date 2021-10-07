@@ -3,7 +3,7 @@
   <a href="https://www.microverse.org/">
     <img alt="Microverse" src="https://img.shields.io/badge/-Microverse-blueviolet?style=flat-square">
   </a>
-  <a href="https://github.com/Hamzaoutdoors/to-do-list/blob/development/LICENSE">
+  <a href="https://github.com/Hamzaoutdoors/Space-Travelers-Hub/blob/dev/MIT.md">
     <img alt="MIT Licensed" src="https://img.shields.io/github/license/Hamzaoutdoors/to-do-list?style=flat-square">
   </a>
   <a href="https://github.com/Hamzaoutdoors/Space-Travelers-Hub">
@@ -31,6 +31,11 @@ By building this application, I learned how to use React, Redux and working in P
   - For this project we used the following APIs :
     - Rockets: ``https://api.spacexdata.com/v3/rockets``
     - Missions: ``https://api.spacexdata.com/v3/missions``
+
+## Video presentation
+
+[![Video](https://user-images.githubusercontent.com/80895497/136445799-58ca5006-d129-4e82-b3d9-66796f42dd79.PNG)](https://drive.google.com/file/d/1wm_n4vBSnlGcx9krMYD-JzENQjFiaGp-/view?usp=sharing)
+
 
 <!-- </br>
 <p align="center">
