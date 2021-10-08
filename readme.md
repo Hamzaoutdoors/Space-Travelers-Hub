@@ -37,10 +37,10 @@ By building this application, I learned how to use React, Redux and working in P
 [![Video](https://user-images.githubusercontent.com/80895497/136445799-58ca5006-d129-4e82-b3d9-66796f42dd79.PNG)](https://drive.google.com/file/d/1wm_n4vBSnlGcx9krMYD-JzENQjFiaGp-/view?usp=sharing)
 
 
-<!-- </br>
+</br>
 <p align="center">
    <kbd>
-    <img alt="logo" src="./src/media/Bookstore.gif"width="250" height="250">
+    <img alt="logo" src="https://user-images.githubusercontent.com/80895497/136630956-5dd67ad9-b16e-44e3-8aa4-1596e037da2b.gif" width="250" height="250" style="border-radius:50%">
    </kbd>
 </p>
 
@@ -48,11 +48,11 @@ By building this application, I learned how to use React, Redux and working in P
 
  <div align="center">
 <kbd>
-  <img alt="math" src="./src\media\screenShot.PNG">
+  <img alt="math" src="https://user-images.githubusercontent.com/80895497/136629724-9fef9575-9a8e-4483-b38c-6852ba33b049.png">
   </kbd>
   </div>
  </br>
- -->
+
 
 ## Built With
 
